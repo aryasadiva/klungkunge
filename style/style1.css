@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: auto;
+	background-image: linear-gradient(rgb(0, 132, 184), rgb(0, 0, 0));
+}
+.header{
+	width: auto;
+	height: 80px;
+}
+.nav_link{
+    list-style: none;
+	text-align: center;
+	padding-top: 30px;
+}
+.nav_link li{
+    display: inline;    
+    padding-right: 40px;   
+}
+.nav_link li a{
+    text-decoration: none;
+    font-family: 'Trueno', sans-serif;
+    color: rgb(255, 255, 255);
+	font-size: 17px;
+	
+}
+.nav_link li a:hover{
+    transition: all 0.9s ease 0s;
+    color: rgb(0, 0, 0);
+}
+.konten1{
+	width: auto;
+    height: 185px;
+}
+.teks{
+	width: 600px;
+	font-family: 'Trueno', sans-serif;
+	color: rgb(255, 255, 255);
+	/* padding-top: 20px; */
+    margin-left: 50px;
+}
+.the{
+	font-size: 30px;
+	font-weight: 400;
+}
+.of{
+	font-size: 30px;
+	letter-spacing: 3px;
+	/* padding-top: 30px; */
+}
+.teks h1{
+    font-size: 90px;
+    letter-spacing: 3px;
+}
+.konten2{
+	width: auto;
+    height: 1300px;
+}
+.group2{
+	width: 396px;
+	height: 492px;
+	float: left;
+	margin-top: 35px;
+    margin-left: 50px;
+    padding-right: 20px;
+}
+.teks2{
+	width: auto;
+	font-family: 'Trueno', sans-serif;
+	/* letter-spacing: 0.2em; */
+	color: rgb(255, 255, 255);
+	/* float: left; */
+	text-align: justify;
+	margin-top: 35px;
+    margin-right: 50px;
+    margin-left: 50px;
+	padding-left: 10px;
+	padding-top: 70px;
+}
+.teks2 h1{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+.teks2 p{
+	padding-bottom: 20px;
+}
+.teks2 a{
+	text-decoration: none;
+    font-family: 'Trueno', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.teks2 a:hover{
+	transition: all 0.9s ease 0s;
+    color: rgb(0, 0, 0);
+}
+.footer{
+	width: auto;
+	height: 100px;
+}
+.footer p{
+	font-family: 'Trueno', sans-serif;
+	letter-spacing: 0.5em;
+	color: rgb(255, 255, 255);
+	padding-top: 45px;
+	text-align: center;
+}
